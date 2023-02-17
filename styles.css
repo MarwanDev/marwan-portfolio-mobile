@@ -176,6 +176,22 @@ hr {
   font-family: 'Inter', sans-serif;
 }
 
+.work .project-button {
+  background-color: #ff6b00;
+  height: 48px;
+  color: #fff;
+  align-self: left;
+  margin-top: 22px;
+  margin-left: 1.5px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  width: 99%;
+  border: none;
+}
+
 .head-work .project-button:hover {
   background: rgba(0, 0, 0, 0.3);
 }
@@ -234,22 +250,6 @@ hr {
 
 .work li {
   color: #fff;
-}
-
-.work .project-button {
-  background-color: #ff6b00;
-  height: 48px;
-  color: #fff;
-  align-self: left;
-  margin-top: 22px;
-  margin-left: 1.5px;
-  padding: 12px;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  font-family: 'Inter', sans-serif;
-  width: 99%;
-  border: none;
 }
 
 .work .project-button:hover {
