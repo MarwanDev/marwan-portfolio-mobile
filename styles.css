@@ -151,7 +151,7 @@ hr {
   max-width: 80%;
 }
 
-.techstack-container h3 {
+.techstack-container li {
   font-family: 'Inter', sans-serif;
   border: 1px solid #8993a4;
   font-style: normal;
@@ -159,6 +159,7 @@ hr {
   font-size: 15px;
   line-height: 20px;
   padding: 10px 12px;
+  list-style-type: none;
 }
 
 .head-work .project-button {
@@ -173,6 +174,10 @@ hr {
   font-size: 17px;
   line-height: 24px;
   font-family: 'Inter', sans-serif;
+}
+
+.head-work .project-button:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .works {
@@ -227,7 +232,7 @@ hr {
   margin-top: 10px;
 }
 
-.work h3 {
+.work li {
   color: #fff;
 }
 
@@ -245,6 +250,10 @@ hr {
   font-family: 'Inter', sans-serif;
   width: 99%;
   border: none;
+}
+
+.work .project-button:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .about {
