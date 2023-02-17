@@ -98,7 +98,7 @@ nav .bar1,
   align-items: center;
 }
 
-.recent-works h1 {
+.recent-works h2 {
   margin-top: 30px;
   font-family: "Crete Round", sans-serif;
   color: #1c1a19;
@@ -264,7 +264,7 @@ hr {
   flex-direction: column;
 }
 
-.about h1 {
+.about h2 {
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
