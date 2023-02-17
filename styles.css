@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+nav {
+  background-color: #3e3c3c;
+  height: 92px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+nav .bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.name-container {
+  flex: 1 0 250px;
+}
+
+.name-container h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.links-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.links-container {
+  display: none;
+  background-color: #3e3c3c;
+}
+
+.header {
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+  background-image: url(assets/Illustration-header.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.header .job-desc {
+  font-family: "Roboto", sans-serif;
+  color: #fff5e1;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+
+.header .intro {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff5e1;
+  max-width: 50%;
+  margin-left: 10px;
+}
+
+.icons-container > ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50%;
+  margin-left: 10px;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.recent-works {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.recent-works h1 {
+  margin-top: 30px;
+  font-family: "Crete Round", sans-serif;
+  color: #1c1a19;
+}
+
+hr {
+  width: 85%;
+}
+
+.head-work {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+}
+
+.head-work img {
+  width: 80%;
+  align-self: center;
+}
+
+.head-work h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.recent-works p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.techstack-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+}
+
+.techstack-container h3 {
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #8993a4;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 12px;
+}
+
+.head-work .project-button {
+  background-color: #ff6b00;
+  height: 48px;
+  color: #fff;
+  align-self: flex-start;
+  margin-left: 36px;
+  margin-top: 20px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.works {
+  display: grid;
+  background-color: #e5e5e5;
+  row-gap: 10px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  background-image: url(assets/Img\ Placeholder1.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-position: top;
+}
+
+.work h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  width: 80%;
+  color: #fff;
+}
+
+.work p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.work .techstack-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 36px;
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+.work h3 {
+  color: #fff;
+}
+
+.work .project-button {
+  background-color: #ff6b00;
+  height: 48px;
+  color: #fff;
+  align-self: left;
+  margin-top: 22px;
+  margin-left: 1.5px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  width: 99%;
+  border: none;
+}
+
+.about {
+  background-color: #1c1a19;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .about-me {
+  background-image: url(assets/Frame.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: bottom right;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  font-family: "Crete Round", sans-serif;
+  margin-top: 50px;
+  color: #ff6b00;
+  margin-left: 20px;
+}
+
+.header .welcome h1 {
+  color: #ff6b00;
+  font-size: 56px;
+  margin-top: 150px;
+  font-family: "Crete Round", sans-serif;
+  margin-left: 10px;
+}
+
+.about p {
+  color: #f4f5f7;
+  margin-left: 20px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.about button {
+  background-color: #ff6b00;
+  height: 48px;
+  color: #fff;
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.about hr {
+  margin-bottom: 10px;
+  width: 90%;
+  align-self: center;
+  color: #fff;
+}
+
+.skills-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+  margin-top: 20px;
+}
+
+.skills-container .skills-title {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+.skills-container .skills-title h2 {
+  margin-left: 10px;
+}
+
+.skills-container ul {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.skills-container ul li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
