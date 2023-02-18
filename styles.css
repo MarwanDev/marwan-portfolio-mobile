@@ -90,7 +90,7 @@ nav .bar1,
 }
 
 .recent-works {
-  background-color: #e5e5e5;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -101,17 +101,24 @@ nav .bar1,
 .recent-works h2 {
   margin-top: 30px;
   font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
   color: #1c1a19;
+  display: flex;
+  align-items: center;  
 }
 
 hr {
   width: 85%;
+  margin-top: 30px;
 }
 
 .head-work {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
+  margin-top: 50px;
 }
 
 .head-work img {
@@ -194,11 +201,14 @@ hr {
 
 .head-work .project-button:hover {
   background: rgba(0, 0, 0, 0.3);
+  background-color: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
 }
 
 .works {
   display: grid;
-  background-color: #e5e5e5;
+  background-color: #fff;
   row-gap: 10px;
 }
 
@@ -254,6 +264,9 @@ hr {
 
 .work .project-button:hover {
   background: rgba(0, 0, 0, 0.3);
+  background-color: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
 }
 
 .about {
@@ -317,6 +330,13 @@ hr {
   font-family: 'Inter', sans-serif;
 }
 
+.about button:hover {
+  background: rgba(0, 0, 0, 0.3);
+  background-color: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
+}
+
 .about hr {
   margin-bottom: 10px;
   width: 90%;
@@ -338,16 +358,20 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
+}
+
+.skills-title svg {
+  margin-top: 50px;
+}
+
+.skills-container .skills-title h2 {
+  color: #fff;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
-}
-
-.skills-container .skills-title h2 {
-  margin-left: 10px;
 }
 
 .skills-container ul {
