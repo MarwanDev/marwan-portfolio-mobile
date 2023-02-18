@@ -106,7 +106,7 @@ nav .bar1,
   line-height: 52px;
   color: #1c1a19;
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 hr {
@@ -201,9 +201,9 @@ hr {
 
 .head-work .project-button:hover {
   background: rgba(0, 0, 0, 0.3);
-  background-color: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .works {
@@ -264,9 +264,9 @@ hr {
 
 .work .project-button:hover {
   background: rgba(0, 0, 0, 0.3);
-  background-color: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .about {
@@ -332,9 +332,9 @@ hr {
 
 .about button:hover {
   background: rgba(0, 0, 0, 0.3);
-  background-color: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .about hr {
