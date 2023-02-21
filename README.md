@@ -181,8 +181,8 @@ Feel free to check the [issues page](https://habasm.github.io/awsomebooks/issues
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank my coding partner
-> Ansar Ibrahim
-> Rushema Anicet
+- **Ansar Ibrahim**
+- **Rushema Anicet**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
