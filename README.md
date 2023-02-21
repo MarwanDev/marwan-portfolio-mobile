@@ -48,8 +48,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Desktop version]**
-- **[Responsiveness and backend]**
+- **[Mobile Version]**
+- **[Frontend Design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
