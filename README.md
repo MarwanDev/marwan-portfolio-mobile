@@ -169,10 +169,11 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/marwaneg)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/rushema-anicet-7749408)
 
-👤 **Ansar Ibrahim**
-- GitHub: [@githubhandle](https://github.com/AnsarIbrahim)
-- Twitter: [@twitterhandle](https://twitter.com/marwaneg)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/ansar-ibrahim-61447424a/)
+👤  **Ansar**
+
+- GitHub: [AnsarIbrahim](https://github.com/AnsarIbrahim)
+- Twitter: [@ansaradheeb](https://twitter.com/ansaradheeb)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ansar-ibrahim-61447424a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
