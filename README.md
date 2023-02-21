@@ -27,8 +27,7 @@
 
 # 📖 [Marwan Portfolio with Collaboration] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-**[Marwan Portfolio with Collaboration]** is a project <b>Marwan Portfolio: <u>events</u></b> of the project named <b>Marwan Portfollio with Collaboration.</b>
+**[Marwan Portfolio with Collaboration]** is a project between <b>Marwan </b>, <b>Ansar Ibrahim</b> and <b>Rushema</b> collaboration
 ## 🛠 Built With <a name="built-with"> HTML & CSS</a>
 
 ## 🛠 Built With <a name="built-with"></a>
