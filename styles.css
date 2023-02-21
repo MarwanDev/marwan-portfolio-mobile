@@ -337,6 +337,12 @@ hr {
   color: #f55800;
 }
 
+footer hr {
+  margin: 100px auto 0 auto;
+  width: 100%;
+  background-color: #dfe1e6;
+}
+
 .about hr {
   margin-bottom: 10px;
   width: 90%;
@@ -462,12 +468,6 @@ hr {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
-}
-
-footer hr {
-  margin: 100px auto 0 auto;
-  width: 100%;
-  background-color: #dfe1e6;
 }
 
 footer .footer-container {
