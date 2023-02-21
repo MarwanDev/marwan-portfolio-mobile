@@ -133,7 +133,7 @@ Example:
 👤 **Marwan Abdelsattar**
 - GitHub: [@githubhandle](https://github.com/marwandev)
 - Twitter: [@twitterhandle](https://twitter.com/marwaneg)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/marwan-abdelsattar-665a59105/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marwan-abdelsattar-665a59105/)
 
 👤 **Rushema Anicet**
 - GitHub: [@githubhandle](https://github.com/rushemaa)
@@ -181,6 +181,8 @@ Feel free to check the [issues page](https://habasm.github.io/awsomebooks/issues
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank my coding partner
+> Ansar Ibrahim
+> Rushema Anicet
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
