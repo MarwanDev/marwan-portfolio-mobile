@@ -1,32 +1,3 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-Modify this file to match your project and remove sections that don't apply.
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-OPTIONAL SECTIONS:
-- FAQ
-After you're finished please remove all the comments and instructions!
--->
-
-
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -54,10 +25,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Marwan Portfolio] <a name="about-project"></a>
+# 📖 [Marwan Portfolio with Collaboration] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-**[Marwan Portfolio]** is a project <b>Marwan Portfolio: <u>events</u></b> of the project named <b>Marwan Portfollio.</b>
+**[Marwan Portfolio with Collaboration]** is a project between <b>Marwan </b>, <b>Ansar Ibrahim</b> and <b>Rushema</b> collaboration
 ## 🛠 Built With <a name="built-with"> HTML & CSS</a>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -77,8 +47,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Displaying navbar]**
-- **[Displaying information abou author]**
+- **[Mobile Version]**
+- **[Frontend Design]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +76,7 @@ Clone this repository to your desired folder:
 
 Clone this repository or download the Zip folder:
 
-**`git clone https://github.com/MarwanDev/marwan-portfolio.git**
+**`git clone https://github.com/MarwanDev/marwan-portfolio-mobile.git**
 
 ### Install
 
@@ -115,7 +85,7 @@ Install this project with:
 <!--
 Example command:
 ```sh
-  cd my-project
+  cd marwan-portfolio-mobile
   gem install
 ```
 --->
@@ -162,8 +132,18 @@ Example:
 👤 **Marwan Abdelsattar**
 - GitHub: [@githubhandle](https://github.com/marwandev)
 - Twitter: [@twitterhandle](https://twitter.com/marwaneg)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle](https://www.linkedin.com/in/marwan-abdelsattar-665a59105/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marwan-abdelsattar-665a59105/)
 
+👤 **Rushema Anicet**
+- GitHub: [@githubhandle](https://github.com/rushemaa)
+- Twitter: [@twitterhandle](https://twitter.com/marwaneg)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rushema-anicet-7749408)
+
+👤  **Ansar**
+
+- GitHub: [AnsarIbrahim](https://github.com/AnsarIbrahim)
+- Twitter: [@ansaradheeb](https://twitter.com/ansaradheeb)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/ansar-ibrahim-61447424a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,6 +153,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 - [ ] **Desktop View**
+- Animation
+- Transtition
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -197,6 +180,8 @@ Feel free to check the [issues page](https://habasm.github.io/awsomebooks/issues
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > I would like to thank my coding partner
+- **Ansar Ibrahim**
+- **Rushema Anicet**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
