@@ -522,15 +522,18 @@ footer .ending-line {
   }
 
   .header .welcome {
+    padding: 25px 25px auto auto;
     margin-left: 70px;
   }
 
   .header .job-desc {
     margin-left: 70px;
+    padding: 25px 25px auto auto;
   }
 
   .header .intro {
     margin-left: 70px;
+    padding: 25px 25px auto auto;
   }
 
   .header .icons-container {
@@ -602,6 +605,7 @@ footer .ending-line {
 
   .about .about-me {
     background-size: 25%;
+    margin-left: 90px;
   }
 
   .about .about-me h2 {
