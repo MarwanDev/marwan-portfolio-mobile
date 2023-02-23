@@ -77,6 +77,23 @@ nav .bar1,
   list-style-type: none;
 }
 
+.techstack-container li {
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #8993a4;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 12px;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.work li {
+  color: #fff;
+  margin-right: 10px;
+}
+
 .icons-container > ul > li {
   margin-right: 20px;
 }
@@ -123,6 +140,28 @@ hr {
   margin-left: 36px;
 }
 
+.work h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  width: 80%;
+  color: #fff;
+}
+
+.about h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  font-family: "Crete Round", sans-serif;
+  margin-top: 50px;
+  color: #ff6b00;
+  margin-left: 20px;
+}
+
 .works .head-work h2 {
   text-align: left;
   margin-left: 36px;
@@ -131,6 +170,29 @@ hr {
   font-size: 32px;
   line-height: 44px;
   color: #091e42;
+}
+
+.work p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.about p {
+  color: #f4f5f7;
+  margin-left: 20px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .works .head-work p {
@@ -145,37 +207,16 @@ hr {
   line-height: 24px;
 }
 
+.skills-container ul {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
 .head-work .techstack-container ul {
   display: flex;
   flex-direction: row;
   margin-top: 24px;
   margin-left: 36px;
-}
-
-.techstack-container li {
-  font-family: 'Inter', sans-serif;
-  border: 1px solid #8993a4;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 10px 12px;
-  list-style-type: none;
-  margin-right: 10px;
-}
-
-.head-work div .project-button {
-  background-color: #ff6b00;
-  height: 48px;
-  color: #fff;
-  align-self: flex-start;
-  margin-left: 36px;
-  margin-top: 10px;
-  padding: 12px;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  font-family: 'Inter', sans-serif;
 }
 
 .work .project-button {
@@ -191,6 +232,20 @@ hr {
   font-family: 'Inter', sans-serif;
   width: 100%;
   border: none;
+}
+
+.head-work div .project-button {
+  background-color: #ff6b00;
+  height: 48px;
+  color: #fff;
+  align-self: flex-start;
+  margin-left: 36px;
+  margin-top: 10px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
 }
 
 .head-work .project-button:hover {
@@ -213,33 +268,9 @@ hr {
   position: relative;
   margin-top: 30px;
   margin-left: 36px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder1.png);
   background-repeat: no-repeat;
   width: 80%;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder1.png);
-}
-
-.work h2 {
-  text-align: left;
-  margin-left: 36px;
-  margin-top: 24px;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  width: 80%;
-  color: #fff;
-}
-
-.work p {
-  text-align: left;
-  margin-left: 36px;
-  margin-top: 24px;
-  max-width: 80%;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
 }
 
 .work .techstack-container ul {
@@ -247,11 +278,6 @@ hr {
   flex-direction: row;
   margin-top: 10px;
   margin-left: 36px;
-}
-
-.work li {
-  color: #fff;
-  margin-right: 10px;
 }
 
 .work .project-button:hover {
@@ -278,33 +304,12 @@ hr {
   flex-direction: column;
 }
 
-.about h2 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 88px;
-  font-family: "Crete Round", sans-serif;
-  margin-top: 50px;
-  color: #ff6b00;
-  margin-left: 20px;
-}
-
 .header .welcome h1 {
   color: #ff6b00;
   font-size: 56px;
   margin-top: 150px;
   font-family: "Crete Round", sans-serif;
   margin-left: 10px;
-}
-
-.about p {
-  color: #f4f5f7;
-  margin-left: 20px;
-  max-width: 80%;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
 }
 
 .about button {
@@ -370,11 +375,6 @@ footer hr {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-}
-
-.skills-container ul {
-  justify-content: space-between;
-  margin-top: 20px;
 }
 
 .skills-container ul li {
@@ -587,15 +587,15 @@ footer .ending-line {
   .work {
     margin-left: 10px;
   }
-  
+
   .work h2 {
     margin-left: 10px;
   }
-  
+
   .work p {
     margin-left: 10px;
   }
-  
+
   .work .techstack-container ul {
     margin-left: 10px;
   }
@@ -608,6 +608,11 @@ footer .ending-line {
     width: 566px;
     height: 78px;
     margin-bottom: 50px;
+  }
+
+  .contact-section p {
+    width: 50%;
+    height: 256px;
   }
 
   .about .about-me p {
@@ -631,11 +636,6 @@ footer .ending-line {
   .contact-section {
     display: flex;
     flex-direction: row;
-  }
-
-  .contact-section p {
-    width: 50%;
-    height: 256px;
   }
 
   .contact-section .form div {
