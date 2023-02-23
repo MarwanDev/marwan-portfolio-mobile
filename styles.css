@@ -33,6 +33,10 @@ nav .bar1,
   font-weight: 700;
 }
 
+.links-container {
+  display: none;
+}
+
 .header {
   background-color: #1c1a19;
   display: flex;
