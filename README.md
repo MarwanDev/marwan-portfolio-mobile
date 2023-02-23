@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Marwan Portfolio with Collaboration] <a name="about-project"></a>
+# 📖 [Marwan Portfolio] <a name="about-project"></a>
 
-**[Marwan Portfolio with Collaboration]** is a project between <b>Marwan </b>, <b>Ansar Ibrahim</b> and <b>Rushema</b> collaboration
+**[Marwan Portfolio with Collaboration]** is a project between <b>Marwan </b>
 ## 🛠 Built With <a name="built-with"> HTML & CSS</a>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -49,6 +49,7 @@
 
 - **[Mobile Version]**
 - **[Frontend Design]**
+- **[Desktop Version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
