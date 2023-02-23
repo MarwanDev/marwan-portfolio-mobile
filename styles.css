@@ -26,26 +26,11 @@ nav .bar1,
   margin: 6px 0;
 }
 
-.name-container {
-  flex: 1 0 250px;
-}
-
 .name-container h2 {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
-}
-
-.links-container ul {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.links-container {
-  display: none;
-  background-color: #3e3c3c;
 }
 
 .header {
@@ -82,11 +67,14 @@ nav .bar1,
 
 .icons-container > ul {
   display: flex;
-  justify-content: space-between;
   max-width: 50%;
   margin-left: 10px;
   flex-direction: row;
   list-style-type: none;
+}
+
+.icons-container > ul > li {
+  margin-right: 20px;
 }
 
 .recent-works {
@@ -94,7 +82,6 @@ nav .bar1,
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  min-height: 100vh;
   align-items: center;
 }
 
@@ -114,19 +101,19 @@ hr {
   margin-top: 30px;
 }
 
-.head-work {
+.works .head-work {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
   margin-top: 50px;
 }
 
-.head-work img {
+.works .head-work img {
   width: 80%;
   align-self: center;
 }
 
-.head-work h2 {
+.works .head-work h2 {
   text-align: left;
   margin-left: 36px;
   margin-top: 24px;
@@ -136,7 +123,7 @@ hr {
   color: #091e42;
 }
 
-.recent-works p {
+.works .head-work p {
   text-align: left;
   margin-left: 36px;
   margin-top: 24px;
@@ -148,14 +135,11 @@ hr {
   line-height: 24px;
 }
 
-.techstack-container {
+.head-work .techstack-container ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 36px;
   margin-top: 24px;
-  max-width: 80%;
+  margin-left: 36px;
 }
 
 .techstack-container li {
@@ -167,6 +151,7 @@ hr {
   line-height: 20px;
   padding: 10px 12px;
   list-style-type: none;
+  margin-right: 10px;
 }
 
 .head-work .project-button {
@@ -189,13 +174,12 @@ hr {
   color: #fff;
   align-self: left;
   margin-top: 22px;
-  margin-left: 1.5px;
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   font-family: 'Inter', sans-serif;
-  width: 99%;
+  width: 100%;
   border: none;
 }
 
@@ -207,21 +191,21 @@ hr {
 }
 
 .works {
-  display: grid;
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   row-gap: 10px;
+  align-items: center;
+  max-width: 90%;
 }
 
 .work {
-  display: flex;
-  flex-direction: column;
-  max-height: 80vh;
-  background-image: url(assets/Img\ Placeholder1.png);
+  position: relative;
+  margin-top: 30px;
   background-repeat: no-repeat;
-  background-size: 90%;
-  padding-left: 16px;
-  padding-right: 16px;
-  background-position: top;
+  width: 80%;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder1.png);
 }
 
 .work h2 {
@@ -248,18 +232,16 @@ hr {
   color: #fff;
 }
 
-.work .techstack-container {
+.work .techstack-container ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 36px;
-  max-width: 80%;
   margin-top: 10px;
+  margin-left: 36px;
 }
 
 .work li {
   color: #fff;
+  margin-right: 10px;
 }
 
 .work .project-button:hover {
@@ -273,15 +255,15 @@ hr {
   background-color: #1c1a19;
   min-height: 100vh;
   display: flex;
+  margin-top: 30px;
   flex-direction: column;
 }
 
 .about .about-me {
   background-image: url(assets/Frame.png);
   background-repeat: no-repeat;
-  background-size: 40%;
   background-position: bottom right;
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -489,4 +471,44 @@ footer .ending-line {
   background: #0d151e;
   border-radius: 14px;
   margin: 0 auto 10px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar .bars {
+    display: none;
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+  }
+
+  .links-container ul {
+    background-color: #3e3c3c;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    list-style-type: none;
+  }
+
+  .links-container ul li {
+    margin-right: 10px;
+  }
+
+  .links-container ul li a {
+    width: 45px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .links-container .message-container {
+    margin-top: 10px;
+  }
+
 }
