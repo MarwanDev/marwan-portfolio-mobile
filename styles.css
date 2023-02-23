@@ -628,4 +628,26 @@ footer .ending-line {
     text-align: left;
   }
 
+  .contact-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-section p {
+    width: 50%;
+    height: 256px;
+  }
+
+  .contact-section .form div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-section .form .send {
+    margin-left: 0;
+  }
+
+  footer .ending-line {
+    display: none;
+  }
 }
