@@ -112,9 +112,15 @@ hr {
   margin-top: 50px;
 }
 
-.works .head-work img {
-  width: 80%;
-  align-self: center;
+.works .head-work div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.works .head-work .image-container {
+  width: 85%;
+  margin-left: 36px;
 }
 
 .works .head-work h2 {
@@ -158,13 +164,13 @@ hr {
   margin-right: 10px;
 }
 
-.head-work .project-button {
+.head-work div .project-button {
   background-color: #ff6b00;
   height: 48px;
   color: #fff;
   align-self: flex-start;
   margin-left: 36px;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 12px;
   font-weight: 700;
   font-size: 17px;
@@ -194,8 +200,7 @@ hr {
   color: #f55800;
 }
 
-.works {
-  /* display: grid; */
+.works-section {
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -207,6 +212,7 @@ hr {
 .work {
   position: relative;
   margin-top: 30px;
+  margin-left: 36px;
   background-repeat: no-repeat;
   width: 80%;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder1.png);
@@ -513,6 +519,113 @@ footer .ending-line {
 
   .links-container .message-container {
     margin-top: 10px;
+  }
+
+  .header .welcome {
+    margin-left: 70px;
+  }
+
+  .header .job-desc {
+    margin-left: 70px;
+  }
+
+  .header .intro {
+    margin-left: 70px;
+  }
+
+  .header .icons-container {
+    position: absolute;
+    left: 0;
+  }
+
+  .header .icons-container ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .icons-container ul li {
+    margin-top: 30px;
+  }
+
+  .recent-works {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .recent-works h2 {
+    margin-left: 50px;
+  }
+
+  .recent-works hr {
+    width: 70%;
+    margin-right: 50px;
+  }
+
+  .works .head-work {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+  }
+
+  .works .head-work .image-container {
+    width: 60%;
+  }
+
+  .works .head-work div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .works .works-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 36px;
+  }
+
+  .work {
+    margin-left: 10px;
+  }
+  
+  .work h2 {
+    margin-left: 10px;
+  }
+  
+  .work p {
+    margin-left: 10px;
+  }
+  
+  .work .techstack-container ul {
+    margin-left: 10px;
+  }
+
+  .about .about-me {
+    background-size: 25%;
+  }
+
+  .about .about-me h2 {
+    width: 566px;
+    height: 78px;
+    margin-bottom: 50px;
+  }
+
+  .about .about-me p {
+    width: 566px;
+    height: 148px;
+  }
+
+  .about .skills-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about .skills-container ul {
+    list-style-type: none;
+  }
+
+  .about .skills-container ul li {
+    text-align: left;
   }
 
 }
