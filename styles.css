@@ -254,6 +254,7 @@ hr {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+  transform: scale(1.2);
 }
 
 .works-section {
@@ -286,6 +287,7 @@ hr {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+  transform: scale(1.2);
 }
 
 .about {
@@ -333,6 +335,7 @@ hr {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+  transform: scale(1.2);
 }
 
 footer hr {
@@ -461,6 +464,7 @@ footer hr {
   background-color: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
+  transform: scale(1.2);
 }
 
 footer .footer-container {
