@@ -1,0 +1,681 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+nav {
+  background-color: #3e3c3c;
+  height: 92px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+nav .bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.name-container h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.links-container {
+  display: none;
+}
+
+.header {
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+  background-image: url(assets/Illustration-header.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  padding-bottom: 120px;
+}
+
+.header .job-desc {
+  font-family: "Roboto", sans-serif;
+  color: #fff5e1;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+
+.header .intro {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff5e1;
+  max-width: 50%;
+  margin-left: 10px;
+}
+
+.icons-container > ul {
+  display: flex;
+  max-width: 50%;
+  margin-left: 10px;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.techstack-container li {
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #8993a4;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 12px;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.work li {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.icons-container > ul > li {
+  margin-right: 20px;
+}
+
+.recent-works {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.recent-works h2 {
+  margin-top: 30px;
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  width: 85%;
+  margin-top: 30px;
+}
+
+.works .head-work {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  margin-top: 50px;
+}
+
+.works .head-work div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.works .head-work .image-container {
+  width: 85%;
+  margin-left: 36px;
+}
+
+.work h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  width: 80%;
+  color: #fff;
+}
+
+.about h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  font-family: "Crete Round", sans-serif;
+  margin-top: 50px;
+  color: #ff6b00;
+  margin-left: 20px;
+}
+
+.works .head-work h2 {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.work p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.about p {
+  color: #f4f5f7;
+  margin-left: 20px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.works .head-work p {
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 24px;
+  max-width: 80%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.skills-container ul {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.head-work .techstack-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  margin-left: 36px;
+}
+
+.work .project-button {
+  background-color: #ff6b00;
+  height: 48px;
+  color: #fff;
+  align-self: left;
+  margin-top: 22px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+  border: none;
+}
+
+.head-work div .project-button {
+  background-color: #ff6b00;
+  height: 48px;
+  color: #fff;
+  align-self: flex-start;
+  margin-left: 36px;
+  margin-top: 10px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.head-work .project-button:hover {
+  background: rgba(0, 0, 0, 0.3);
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  transform: scale(1.2);
+}
+
+.works-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  row-gap: 10px;
+  align-items: center;
+  max-width: 90%;
+}
+
+.work {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 36px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder1.png);
+  background-repeat: no-repeat;
+  width: 80%;
+}
+
+.work .techstack-container ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 36px;
+}
+
+.work .project-button:hover {
+  background: rgba(0, 0, 0, 0.3);
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+.about {
+  background-color: #1c1a19;
+  min-height: 100vh;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+.about .about-me {
+  background-image: url(assets/Frame.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .welcome h1 {
+  color: #ff6b00;
+  font-size: 56px;
+  margin-top: 150px;
+  font-family: "Crete Round", sans-serif;
+  margin-left: 10px;
+}
+
+.about button {
+  background-color: #ff6b00;
+  height: 48px;
+  color: #fff;
+  align-self: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.about button:hover {
+  background: rgba(0, 0, 0, 0.3);
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  transform: scale(1.2);
+}
+
+footer hr {
+  margin: 100px auto 0 auto;
+  width: 100%;
+  background-color: #dfe1e6;
+}
+
+.about hr {
+  margin-bottom: 10px;
+  width: 90%;
+  align-self: center;
+  color: #fff;
+}
+
+.skills-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100vh;
+  margin-top: 20px;
+}
+
+.skills-container .skills-title {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.skills-title svg {
+  margin-top: 50px;
+}
+
+.skills-container .skills-title h2 {
+  color: #fff;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.skills-container ul li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.contact-section {
+  width: 87%;
+  padding: 120px 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section .contact-head {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  align-self: center;
+}
+
+.contact-section .form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 20px;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.contact-section .form .form-input {
+  border-bottom: 3px solid #dbd8d7;
+  height: 40px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 12px;
+}
+
+.contact-section .form textarea {
+  background-color: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  padding: 12px;
+}
+
+.contact-section .form .send {
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background-color: #ff6b00;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.contact-section .form .send:hover {
+  background: rgba(0, 0, 0, 0.3);
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+  transform: scale(1.2);
+}
+
+footer .footer-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 30px auto;
+  width: 170px;
+}
+
+footer .footer-container li a {
+  color: #505f79;
+}
+
+footer .ending-line {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 14px;
+  margin: 0 auto 10px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar .bars {
+    display: none;
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+  }
+
+  .links-container ul {
+    background-color: #3e3c3c;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    list-style-type: none;
+  }
+
+  .links-container ul li {
+    margin-right: 10px;
+  }
+
+  .links-container ul li a {
+    width: 45px;
+    height: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .links-container .message-container {
+    margin-top: 10px;
+  }
+
+  .header .welcome {
+    padding: 25px 25px auto auto;
+    margin-left: 70px;
+  }
+
+  .header .job-desc {
+    margin-left: 70px;
+    padding: 25px 25px auto auto;
+  }
+
+  .header .intro {
+    margin-left: 70px;
+    padding: 25px 25px auto auto;
+  }
+
+  .header .icons-container {
+    position: absolute;
+    left: 0;
+  }
+
+  .header .icons-container ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header .icons-container ul li {
+    margin-top: 30px;
+  }
+
+  .works {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recent-works {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .recent-works h2 {
+    margin-left: 50px;
+  }
+
+  .recent-works hr {
+    width: 70%;
+    margin-right: 50px;
+  }
+
+  .works .head-work {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+  }
+
+  .works .head-work .image-container {
+    width: 60%;
+  }
+
+  .works .head-work div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .works .works-section {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    align-self: center;
+  }
+
+  .work {
+    margin-left: 10px;
+  }
+
+  .work h2 {
+    margin-left: 10px;
+  }
+
+  .work p {
+    margin-left: 10px;
+  }
+
+  .work .techstack-container ul {
+    margin-left: 10px;
+  }
+
+  .about .about-me {
+    background-size: 25%;
+    margin-left: 90px;
+  }
+
+  .about .about-me h2 {
+    width: 566px;
+    height: 78px;
+    margin-bottom: 50px;
+  }
+
+  .contact-section p {
+    width: 50%;
+    height: 256px;
+  }
+
+  .about .about-me p {
+    width: 566px;
+    height: 148px;
+  }
+
+  .about .skills-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about .skills-container ul {
+    list-style-type: none;
+  }
+
+  .about .skills-container ul li {
+    text-align: left;
+  }
+
+  .contact-section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-section .form div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-section .form .send {
+    margin-left: 0;
+  }
+
+  footer .ending-line {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .works .works-section {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .works .works-section {
+    max-width: 400px;
+    align-self: center;
+  }
+}
