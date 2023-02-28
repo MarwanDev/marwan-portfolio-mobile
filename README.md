@@ -56,7 +56,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-### Coming Soon
+### <p>Click <a href="https://marwandev.github.io/marwan-portfolio-mobile/">here</a> for the live demo</p>
 
 <!-- GETTING STARTED -->
 
