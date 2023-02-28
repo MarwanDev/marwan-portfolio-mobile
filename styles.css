@@ -518,10 +518,12 @@ footer .ending-line {
     font-size: 15px;
     line-height: 20px;
     color: #fff;
+    cursor: pointer;
   }
 
   .links-container .message-container {
     margin-top: 10px;
+    cursor: pointer;
   }
 
   .header .welcome {
