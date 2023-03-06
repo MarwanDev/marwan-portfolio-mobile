@@ -17,13 +17,128 @@ nav {
   padding: 0 24px;
 }
 
-nav .bar1,
-.bar2,
-.bar3 {
+#toggle-icon {
+  display: block;
+}
+
+.works .head-work div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#toggle-icon div {
   width: 35px;
-  height: 5px;
+  height: 3px;
   background-color: white;
   margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+nav .nav-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.open .nav-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style-type: none;
+  background-color: #3e3c3c;
+  margin-top: 40px;
+}
+
+.techstack-container li {
+  font-family: "Inter", sans-serif;
+  border: 1px solid #8993a4;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 12px;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.work li {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.icons-container > ul > li {
+  margin-right: 20px;
+}
+
+.skills-container ul li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.open .nav-menu li {
+  margin-bottom: 25px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+footer .footer-container li a {
+  color: #505f79;
+}
+
+.open .nav-menu li a {
+  padding-left: 10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+}
+
+hr {
+  width: 85%;
+  margin-top: 30px;
+}
+
+footer hr {
+  margin: 100px auto 0 auto;
+  width: 100%;
+  background-color: #dfe1e6;
+}
+
+.about hr {
+  margin-bottom: 10px;
+  width: 90%;
+  align-self: center;
+  color: #fff;
+}
+
+.open .nav-menu li hr {
+  padding: 5px 20px auto;
+  margin-top: 5px;
+  width: 90vw;
 }
 
 .name-container h2 {
@@ -78,27 +193,6 @@ nav .bar1,
   list-style-type: none;
 }
 
-.techstack-container li {
-  font-family: 'Inter', sans-serif;
-  border: 1px solid #8993a4;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  padding: 10px 12px;
-  list-style-type: none;
-  margin-right: 10px;
-}
-
-.work li {
-  color: #fff;
-  margin-right: 10px;
-}
-
-.icons-container > ul > li {
-  margin-right: 20px;
-}
-
 .recent-works {
   background-color: #fff;
   display: flex;
@@ -118,21 +212,10 @@ nav .bar1,
   align-items: center;
 }
 
-hr {
-  width: 85%;
-  margin-top: 30px;
-}
-
 .works .head-work {
   display: flex;
   flex-direction: column;
   min-height: 80vh;
-  margin-top: 50px;
-}
-
-.works .head-work div {
-  display: flex;
-  flex-direction: column;
   margin-top: 50px;
 }
 
@@ -178,7 +261,7 @@ hr {
   margin-left: 36px;
   margin-top: 24px;
   max-width: 80%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -190,7 +273,7 @@ hr {
   color: #f4f5f7;
   margin-left: 20px;
   max-width: 80%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -201,7 +284,7 @@ hr {
   margin-left: 36px;
   margin-top: 24px;
   max-width: 80%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -230,7 +313,7 @@ hr {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   width: 100%;
   border: none;
 }
@@ -246,7 +329,7 @@ hr {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .head-work .project-button:hover {
@@ -269,7 +352,13 @@ hr {
 .work {
   position: relative;
   margin-top: 30px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/Img\ Placeholder1.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(assets/Img\ Placeholder1.png);
   background-repeat: no-repeat;
   width: 80%;
 }
@@ -325,7 +414,7 @@ hr {
   font-size: 17px;
   line-height: 24px;
   border: none;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .about button:hover {
@@ -334,19 +423,6 @@ hr {
   border: 1px solid #f55800;
   color: #f55800;
   transform: scale(1.2);
-}
-
-footer hr {
-  margin: 100px auto 0 auto;
-  width: 100%;
-  background-color: #dfe1e6;
-}
-
-.about hr {
-  margin-bottom: 10px;
-  width: 90%;
-  align-self: center;
-  color: #fff;
 }
 
 .skills-container {
@@ -372,20 +448,11 @@ footer hr {
 
 .skills-container .skills-title h2 {
   color: #fff;
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-}
-
-.skills-container ul li {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  color: #fff;
 }
 
 .contact-section {
@@ -397,7 +464,7 @@ footer hr {
 }
 
 .contact-section .contact-head {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -419,7 +486,7 @@ footer hr {
 .contact-section .form .form-input {
   border-bottom: 3px solid #dbd8d7;
   height: 40px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -432,7 +499,7 @@ footer hr {
 
 .contact-section .form textarea {
   background-color: #fbf8f7;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -448,7 +515,7 @@ footer hr {
   height: 48px;
   background-color: #ff6b00;
   margin: auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -472,10 +539,6 @@ footer .footer-container {
   justify-content: space-around;
   margin: 30px auto;
   width: 170px;
-}
-
-footer .footer-container li a {
-  color: #505f79;
 }
 
 footer .ending-line {
@@ -512,7 +575,7 @@ footer .ending-line {
   .links-container ul li a {
     width: 45px;
     height: 20px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
