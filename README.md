@@ -146,6 +146,12 @@ Example:
 - Twitter: [@ansaradheeb](https://twitter.com/ansaradheeb)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ansar-ibrahim-61447424a/)
 
+👤 **Mercy Mugambi**
+
+- GitHub: @mercymugambi(https://github.com/mercymugambi)
+- Twitter: @mercymugambi(https://twitter.com/MercyMugambi15)
+- LinkedIn: @mercymugambi
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
