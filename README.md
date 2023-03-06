@@ -32,7 +32,7 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 > HTML,
-> CSS and
+> CSS and JavaScript
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
