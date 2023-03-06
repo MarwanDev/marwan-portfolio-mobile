@@ -32,7 +32,7 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 > HTML,
-> CSS and
+> CSS and JavaScript
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -158,7 +158,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 - [ ] **Desktop View**
 - Animation
 - Transtition
