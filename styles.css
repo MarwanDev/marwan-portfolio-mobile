@@ -550,7 +550,7 @@ footer .ending-line {
 }
 
 @media screen and (min-width: 768px) {
-  .navbar .bars {
+  #toggle-icon {
     display: none;
   }
 
