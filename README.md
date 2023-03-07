@@ -32,7 +32,7 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 > HTML,
-> CSS and
+> CSS and JavaScript
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -146,13 +146,18 @@ Example:
 - Twitter: [@ansaradheeb](https://twitter.com/ansaradheeb)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ansar-ibrahim-61447424a/)
 
+👤 **Mercy Mugambi**
+
+- GitHub: [@mercymugambi](https://github.com/mercymugambi)
+- Twitter: [@mercymugambi](https://twitter.com/MercyMugambi15)
+- LinkedIn: [@mercymugambi](https://www.linkedin.com/in/mercymugambi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 - [ ] **Desktop View**
 - Animation
 - Transtition

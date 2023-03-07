@@ -17,6 +17,7 @@
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Add a description" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marwan Portfolio</title>
   </head>
@@ -29,22 +30,33 @@
             <h2>Marwan</h2>
           </a>
         </div>
-        <div class="bars">
+        <div class="bars" id="toggle-icon" onclick="toggleMobileMenu(this)">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
+          <ul class="nav-menu">
+            <li>
+              <a href="#works">Portfolio</a><hr>
+            </li>
+            <li>
+              <a href="#about">About</a><hr>
+            </li>
+            <li>
+              <a href="#contact">Contact</a><hr>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="links-container">
         <ul>
           <li>
-            <a>Portfolio</a>
+            <a href="#works">Portfolio</a>
           </li>
           <li>
-            <a>About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         <div class="message-container">
@@ -73,11 +85,11 @@
       </div>
       <div class="icons-container">
         <ul>
-          <li><a><img src="assets/github.png" alt="github"/></a></li>
-          <li><a><img src="assets/linkedin.png" alt="linkedin"/></a></li>
-          <li><a><img src="assets/angel list.png" alt="angel-list"/></a></li>
-          <li><a><img src="assets/twitter.png" alt="twitter"/></a></li>
-          <li><a><img src="assets/medium.png" alt="medium"/></a></li>
+          <li><a href="https://github.com/MarwanDev"><img src="assets/github.png" alt="github"/></a></li>
+          <li><a href="https://www.linkedin.com/in/marwan-abdelsattar-665a59105"><img src="assets/linkedin.png" alt="linkedin"/></a></li>
+          <li><a href="https://www.linkedin.com/in/marwan-abdelsattar-665a59105"><img src="assets/angel list.png" alt="angel-list"/></a></li>
+          <li><a href="https://www.linkedin.com/in/marwan-abdelsattar-665a59105"><img src="assets/twitter.png" alt="twitter"/></a></li>
+          <li><a href="https://www.linkedin.com/in/marwan-abdelsattar-665a59105"><img src="assets/medium.png" alt="medium"/></a></li>
         </ul>
         </div>
     </section>  
@@ -88,7 +100,7 @@
       <hr>  
     </div>
     
-    <section class="works">
+    <section class="works" id="works">
       <div class="head-work">
         <div class="image-container">
           <img src="assets/Img Placeholder.png" alt="project-cover">
@@ -120,7 +132,7 @@
               <li>Ruby</li>
             </ul>
           </div>
-          <button class="project-button">See Project</button>
+          <button type="button" class="project-button">See Project</button>
         </div>
         
         <div class="work">
@@ -133,7 +145,7 @@
               <li>Ruby</li>
             </ul>
           </div>
-          <button class="project-button">See Project</button>
+          <button type="button" class="project-button">See Project</button>
         </div>
         
         <div class="work">
@@ -146,7 +158,7 @@
             <li>Ruby</li>
           </ul>
         </div>
-        <button class="project-button">See Project</button>
+        <button type="button" class="project-button">See Project</button>
       </div>
       
       <div class="work">
@@ -159,7 +171,7 @@
             <li>Ruby</li>
           </ul>
         </div>
-        <button class="project-button">See Project</button>
+        <button type="button" class="project-button">See Project</button>
       </div>
       
       <div class="work">
@@ -172,7 +184,7 @@
             <li>Ruby</li>
           </ul>
         </div>
-        <button class="project-button">See Project</button>
+        <button type="button" class="project-button">See Project</button>
       </div>
       
       <div class="work">
@@ -185,16 +197,16 @@
             <li>Ruby</li>
           </ul>
         </div>
-        <button class="project-button">See Project</button>
+        <button type="button" class="project-button">See Project</button>
       </div>
     </div>
     </section>
     <!-- about -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-me">
         <h2>About me</h2>
         <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        <button>Get My Resume</button>
+        <button type="button">Get My Resume</button>
       </div>
       <hr>
       <div class="skills-container">
@@ -254,7 +266,7 @@
       </div>
       </section> 
 
-      <section class="contact-section">
+      <section class="contact-section" id="contact">
         <p class="contact-head">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         <form class="form" action="https://formspree.io/f/mvonaqyb" method="POST">
           <div>
@@ -269,14 +281,15 @@
       <footer>
           <hr>
             <ul class="footer-container">
-              <li><a><img src="assets/github.png" alt="github"/></a></li>
-              <li><a><img src="assets/linkedin.png" alt="linkedin"/></a></li>
-              <li><a><img src="assets/angel list.png" alt="angel-list"/></a></li>
-              <li><a><img src="assets/twitter.png" alt="twitter"/></a></li>
-              <li><a><img src="assets/medium.png" alt="medium"/></a></li>
+              <li><a href="https://github.com/MarwanDev"><img src="assets/github.png" alt="github"/></a></li>
+              <li><a href="https://github.com/MarwanDev"><img src="assets/linkedin.png" alt="linkedin"/></a></li>
+              <li><a href="https://github.com/MarwanDev"><img src="assets/angel list.png" alt="angel-list"/></a></li>
+              <li><a href="https://github.com/MarwanDev"><img src="assets/twitter.png" alt="twitter"/></a></li>
+              <li><a href="https://github.com/MarwanDev"><img src="assets/medium.png" alt="medium"/></a></li>
             </ul>
             <div class="ending-line">
             </div>
         </footer>
+        <script src="App.js"></script>
   </body>
 </html>
