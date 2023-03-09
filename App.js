@@ -184,18 +184,18 @@ worksArray.forEach((work) => {
   });
 });
 
-// const htmltoAdd = popupWindow(headWork.id, headWork.header, headWork.paragraph, headWork.languages, headWork.liveLink, headWork.sourceLink, headWork.imgSrc);
-// worksSectionHeader.insertAdjacentHTML('afterend', htmltoAdd);
+const htmltoAdd = popupWindow(headWork.id, headWork.header, headWork.paragraph, headWork.languages, headWork.liveLink, headWork.sourceLink, headWork.imgSrc);
+worksSectionHeader.insertAdjacentHTML('afterend', htmltoAdd);
 
-// const headWorkBtn = document.getElementById(`work-button-${550}`);
+const headWorkBtn = document.getElementById(`work-button-${550}`);
 
-// headWorkBtn.addEventListener('click', () => {
-//   const pop = document.getElementById('popup-window-550');
-//   pop.style.display = 'flex';
-// });
+headWorkBtn.addEventListener('click', () => {
+  const pop = document.getElementById('popup-window-550');
+  pop.style.display = 'flex';
+});
 
-// const headPopCloseBtn = document.getElementById('data-close-button-550');
-// headPopCloseBtn.addEventListener('click', () => {
-//   const pop = document.getElementById('popup-window-550');
-//   pop.style.display = 'none';
-// });
+const headPopCloseBtn = document.getElementById('data-close-button-550');
+headPopCloseBtn.addEventListener('click', () => {
+  const pop = document.getElementById('popup-window-550');
+  pop.style.display = 'none';
+});
