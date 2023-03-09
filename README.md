@@ -62,9 +62,22 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> > To get a local copy up and running, follow these steps.
+> 
+To get a local copy up and running, follow these steps.
 
-## Prerequisites
+### Prerequisites
+
+In order to run this project you need:
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/MarwanDev/marwan-portfolio-mobile.git
+```
+
 
 In order to run this project you need:
 
