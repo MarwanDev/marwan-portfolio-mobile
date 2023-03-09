@@ -409,7 +409,7 @@ footer hr {
   flex-direction: column;
   position: fixed;
   top: 12%;
-  left: 15%;
+  left: 9%;
   border: 1px solid black;
   border-radius: 10px;
   z-index: 10;
@@ -445,7 +445,7 @@ footer hr {
 .popup-body img {
   width: 98%;
   margin-bottom: 5px;
-  max-height: 35vh;
+  height: 35vh;
 }
 
 .popup-body .popup-content {
@@ -696,6 +696,20 @@ footer .ending-line {
   margin: 0 auto 10px auto;
 }
 
+#overlay {
+  display: none;
+  position: fixed;
+  opacity: 1;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  backdrop-filter: blur(4px);
+  pointer-events: all;
+}
+
 @media screen and (min-width: 850px) {
   #toggle-icon {
     display: none;
@@ -783,6 +797,11 @@ footer .ending-line {
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   }
 
+  .popup-body img {
+    min-width: 40vw;
+    height: 462px;
+  }
+
   .header .icons-container ul li {
     margin-top: 30px;
   }
@@ -863,8 +882,10 @@ footer .ending-line {
     width: 80%;
     height: 85vh;
     padding-left: 20px;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(4px);
+    /* -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px); */
   }
 
   .popup-head {
@@ -887,13 +908,8 @@ footer .ending-line {
   .popup-body {
     display: flex;
     flex-direction: row;
-    margin-top: 15px;
-  }
-
-  .popup-body img {
-    margin-bottom: 15px;
-    width: 70vw;
-    max-height: 60vh;
+    margin-top: 25px;
+    height: 70vh;
   }
 
   .popup-body .popup-content {
@@ -1034,6 +1050,15 @@ footer .ending-line {
     grid-template-columns: repeat(3, 400px);
     align-self: center;
   }
+
+  .popup-body {
+    height: 100vh;
+  }
+
+  .popup-body img {
+    min-width: 40vw;
+    height: 462px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1112,13 +1137,14 @@ footer .ending-line {
   .popup-body {
     display: flex;
     flex-direction: row;
-    margin-top: 15px;
+    margin-top: 25px;
+    height: 80vh;
   }
 
   .popup-body img {
     margin-bottom: 15px;
-    width: 70vw;
-    max-height: 60vh;
+    height: 462px;
+    min-width: 40vw;
   }
 
   .popup-body .popup-content {

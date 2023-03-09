@@ -6,7 +6,7 @@ const menu = document.getElementById('toggle-icon');
 toggleMobileMenu(menu);
 
 const worksSection = document.getElementById('works');
-
+const overlay = document.getElementById('overlay');
 const headWork = {
   id: 550,
   header: 'Multi-Post Stories',
@@ -196,6 +196,7 @@ worksArray.forEach((work) => {
   workBtn.addEventListener('click', () => {
     const pop = document.getElementById(`popup-window-${work.id}`);
     pop.style.display = 'flex';
+    overlay.style.display = 'flex';
   });
 
   const popCloseBtn = document.getElementById(`data-close-button-${work.id}`);
@@ -203,6 +204,7 @@ worksArray.forEach((work) => {
   popCloseBtn.addEventListener('click', () => {
     const pop = document.getElementById(`popup-window-${work.id}`);
     pop.style.display = 'none';
+    overlay.style.display = 'none';
   });
 });
 
@@ -220,10 +222,12 @@ const headWorkBtn = document.getElementById(`work-button-${550}`);
 headWorkBtn.addEventListener('click', () => {
   const pop = document.getElementById('popup-window-550');
   pop.style.display = 'flex';
+  overlay.style.display = 'flex';
 });
 
 const headPopCloseBtn = document.getElementById('data-close-button-550');
 headPopCloseBtn.addEventListener('click', () => {
   const pop = document.getElementById('popup-window-550');
   pop.style.display = 'none';
+  overlay.style.display = 'none';
 });
