@@ -120,8 +120,6 @@ const worksDisplay = (id,
   <button id="work-button-${id}" type="button" class="project-button">See Project</button>
 </div>`;
 
-// console.log(worksArray[0].header);
-
 worksArray.forEach((work) => {
   const htmltoAdd = worksDisplay(work.id,
     work.header,
