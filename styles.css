@@ -519,6 +519,14 @@ footer hr {
   margin-top: 50px;
 }
 
+.work .work-img {
+  display: none;
+}
+
+.work .work-link {
+  display: none;
+}
+
 .popup-body .popup-content .popup-buttons button svg {
   margin-left: 15px;
 }

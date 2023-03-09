@@ -1,8 +1,9 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable max-len */
 function toggleMobileMenu(menu) {
   menu.classList.toggle('open');
 }
+
+const menu = document.getElementById('toggle-icon');
+toggleMobileMenu(menu);
 
 const worksSection = document.getElementById('works');
 
@@ -96,10 +97,19 @@ const worksArray = [
   },
 ];
 
-const worksDisplay = (id, header, paragraph, languages, liveLink, sourceLink, imgSrc) => `<div class="works-section">
+const worksDisplay = (id,
+  header,
+  paragraph,
+  languages,
+  liveLink,
+  sourceLink,
+  imgSrc) => `<div class="works-section">
   <div class="work">
     <h2>${header}</h2>
     <p>${paragraph}</p>
+    <img class="work-img" src="${imgSrc}" />
+    <a class="work-link" href="${liveLink}"></a>
+    <a class="work-link" href="${sourceLink}"></a>
     <div class="techstack-container">
       <ul>
         <li>${languages[0]}</li>
@@ -113,7 +123,13 @@ const worksDisplay = (id, header, paragraph, languages, liveLink, sourceLink, im
 // console.log(worksArray[0].header);
 
 worksArray.forEach((work) => {
-  const htmltoAdd = worksDisplay(work.id, work.header, work.paragraph, work.languages, work.liveLink, work.sourceLink, work.imgSrc);
+  const htmltoAdd = worksDisplay(work.id,
+    work.header,
+    work.paragraph,
+    work.languages,
+    work.liveLink,
+    work.sourceLink,
+    work.imgSrc);
   workHeader.insertAdjacentHTML('afterend', htmltoAdd);
 });
 
@@ -165,7 +181,13 @@ const popupWindow = (id, header, paragraph, languages, liveLink, sourceLink, img
 const worksSectionHeader = document.getElementById('works-header');
 
 worksArray.forEach((work) => {
-  const htmltoAdd = popupWindow(work.id, work.header, work.paragraph, work.languages, work.liveLink, work.sourceLink, work.imgSrc);
+  const htmltoAdd = popupWindow(work.id,
+    work.header,
+    work.paragraph,
+    work.languages,
+    work.liveLink,
+    work.sourceLink,
+    work.imgSrc);
   worksSectionHeader.insertAdjacentHTML('afterend', htmltoAdd);
 });
 
@@ -184,7 +206,13 @@ worksArray.forEach((work) => {
   });
 });
 
-const htmltoAdd = popupWindow(headWork.id, headWork.header, headWork.paragraph, headWork.languages, headWork.liveLink, headWork.sourceLink, headWork.imgSrc);
+const htmltoAdd = popupWindow(headWork.id,
+  headWork.header,
+  headWork.paragraph,
+  headWork.languages,
+  headWork.liveLink,
+  headWork.sourceLink,
+  headWork.imgSrc);
 worksSectionHeader.insertAdjacentHTML('afterend', htmltoAdd);
 
 const headWorkBtn = document.getElementById(`work-button-${550}`);
