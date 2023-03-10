@@ -7,6 +7,7 @@ toggleMobileMenu(menu);
 
 const worksSection = document.getElementById('works');
 const overlay = document.getElementById('overlay');
+// First project data
 const headWork = {
   id: 550,
   header: 'Multi-Post Stories',
@@ -17,6 +18,7 @@ const headWork = {
   sourceLink: 'https://github.com/MarwanDev',
 };
 
+// Displaying first project
 const firstWork = `<div class="head-work" id="head-work">
   <div class="image-container">
     <img src="assets/Img Placeholder.png" alt="project-cover">
@@ -189,6 +191,7 @@ worksArray.forEach((work) => {
   worksSectionHeader.insertAdjacentHTML('afterend', htmltoAdd);
 });
 
+// EventListener for each work
 worksArray.forEach((work) => {
   const workBtn = document.getElementById(`work-button-${work.id}`);
   workBtn.addEventListener('click', () => {
@@ -206,6 +209,7 @@ worksArray.forEach((work) => {
   });
 });
 
+// EventListener for main work
 const htmltoAdd = popupWindow(headWork.id,
   headWork.header,
   headWork.paragraph,
