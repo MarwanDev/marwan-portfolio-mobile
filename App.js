@@ -244,3 +244,34 @@ form.addEventListener('submit', (e) => {
     errorMsg.style.display = 'none';
   }
 });
+
+// Preserving data
+const firstName = document.getElementById('first-name');
+const lastName = document.getElementById('last-name');
+const mail = document.getElementById('email');
+const msg = document.getElementById('mail-message');
+
+const inputFields = [
+  firstName,
+  lastName,
+  mail,
+  msg,
+];
+
+inputFields.forEach((item) => {
+  item.addEventListener('input', () => {
+    const data = {
+      firstName: firstName.value,
+      lastName: lastName.value,
+      mail: mail.value,
+      msg: msg.value,
+    };
+    localStorage.setItem('client-data', JSON.stringify(data));
+  });
+});
+
+// const dataSaved = JSON.parse(localStorage.getItem('client-data'));
+// firstName.value = dataSaved.firstName;
+// lastName.value = dataSaved.lastName;
+// mail.value = dataSaved.mail;
+// msg.value = dataSaved.msg;
