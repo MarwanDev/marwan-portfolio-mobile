@@ -655,6 +655,11 @@ footer hr {
   padding: 12px;
 }
 
+.contact-section .form .contact-section-btn {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-section .form .send {
   padding: 12px;
   gap: 10px;
@@ -669,6 +674,13 @@ footer hr {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
+}
+
+.contact-section .form .contact-section-btn .error-msg {
+  display: none;
+  color: rgb(222, 47, 47);
+  align-self: center;
+  margin-top: 15px;
 }
 
 .contact-section .form .send:hover {
