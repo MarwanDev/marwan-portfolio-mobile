@@ -270,8 +270,8 @@ inputFields.forEach((item) => {
   });
 });
 
-// const dataSaved = JSON.parse(localStorage.getItem('client-data'));
-// firstName.value = dataSaved.firstName;
-// lastName.value = dataSaved.lastName;
-// mail.value = dataSaved.mail;
-// msg.value = dataSaved.msg;
+const dataSaved = JSON.parse(localStorage.getItem('client-data'));
+firstName.value = dataSaved.firstName;
+lastName.value = dataSaved.lastName;
+mail.value = dataSaved.mail;
+msg.value = dataSaved.msg;
