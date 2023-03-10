@@ -172,11 +172,11 @@
         <p class="contact-head">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         <form class="form" id="form" action="https://formspree.io/f/mvonaqyb" method="POST">
           <div>
-            <input class="form-input" type="text" name="name" placeholder="First name" maxlength="30" required>
-            <input class="form-input" type="text" name="name" placeholder="Last name" maxlength="30" required>
+            <input class="form-input" type="text" name="name" placeholder="First name" maxlength="30" id="first-name" required>
+            <input class="form-input" type="text" name="name" placeholder="Last name" maxlength="30" id="last-name" required>
           </div>
             <input class="form-input" id="email" type="email" name="email" placeholder="Email address" maxlength="30" required>
-            <textarea name="mail-message" id="" cols="20" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
+            <textarea name="mail-message" id="mail-message" cols="20" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
             <div class="contact-section-btn">
               <input class="send" type="submit" value="Get in touch">
               <p id="error-msg" class="error-msg">Please type the email in lower case</p>
