@@ -232,15 +232,15 @@ headPopCloseBtn.addEventListener('click', () => {
 
 // Form Validation
 
-// const errorMsg = document.getElementById('error-msg');
-// const email = document.getElementById('email');
-// const form = document.getElementById('form');
+const errorMsg = document.getElementById('error-msg');
+const email = document.getElementById('email');
+const form = document.getElementById('form');
 
-// form.addEventListener('submit', (e) => {
-//   if (email.value !== email.value.toLowerCase()) {
-//     e.preventDefault();
-//     errorMsg.style.display = 'flex';
-//   } else {
-//     errorMsg.style.display = 'none';
-//   }
-// });
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorMsg.style.display = 'flex';
+  } else {
+    errorMsg.style.display = 'none';
+  }
+});
